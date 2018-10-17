@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:DepthReader.xcodeproj">
+      location = "self:/Users/juniorxsound/Dev/DepthReader/Portrait-Depth-Extraction.xcodeproj">
    </FileRef>
 </Workspace>

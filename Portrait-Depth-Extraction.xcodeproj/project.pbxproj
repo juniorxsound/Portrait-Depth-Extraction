@@ -16,13 +16,13 @@
 
 /* Begin PBXFileReference section */
 		15412CD62176D50D00EB027B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
-		15B42EC821718F6200217B42 /* DepthReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15AD138A2176D9F300F8E0EE /* Portrait-Depth-Extraction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Portrait-Depth-Extraction.entitlements"; sourceTree = "<group>"; };
+		15B42EC821718F6200217B42 /* Portrait-Depth-Extraction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Portrait-Depth-Extraction.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B42ECB21718F6200217B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B42ECD21718F6200217B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		15B42ECF21718F6400217B42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B42ED221718F6400217B42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		15B42ED421718F6400217B42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15B42ED521718F6400217B42 /* DepthReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DepthReader.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,7 +39,7 @@
 		15B42EBF21718F6200217B42 = {
 			isa = PBXGroup;
 			children = (
-				15B42ECA21718F6200217B42 /* DepthReader */,
+				15B42ECA21718F6200217B42 /* Portrait-Depth-Extraction */,
 				15B42EC921718F6200217B42 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,31 +47,31 @@
 		15B42EC921718F6200217B42 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				15B42EC821718F6200217B42 /* DepthReader.app */,
+				15B42EC821718F6200217B42 /* Portrait-Depth-Extraction.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		15B42ECA21718F6200217B42 /* DepthReader */ = {
+		15B42ECA21718F6200217B42 /* Portrait-Depth-Extraction */ = {
 			isa = PBXGroup;
 			children = (
+				15AD138A2176D9F300F8E0EE /* Portrait-Depth-Extraction.entitlements */,
 				15412CD62176D50D00EB027B /* icon.png */,
 				15B42ECB21718F6200217B42 /* AppDelegate.swift */,
 				15B42ECD21718F6200217B42 /* ViewController.swift */,
 				15B42ECF21718F6400217B42 /* Assets.xcassets */,
 				15B42ED121718F6400217B42 /* Main.storyboard */,
 				15B42ED421718F6400217B42 /* Info.plist */,
-				15B42ED521718F6400217B42 /* DepthReader.entitlements */,
 			);
-			path = DepthReader;
+			path = "Portrait-Depth-Extraction";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		15B42EC721718F6200217B42 /* DepthReader */ = {
+		15B42EC721718F6200217B42 /* Portrait-Depth-Extraction */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 15B42ED821718F6400217B42 /* Build configuration list for PBXNativeTarget "DepthReader" */;
+			buildConfigurationList = 15B42ED821718F6400217B42 /* Build configuration list for PBXNativeTarget "Portrait-Depth-Extraction" */;
 			buildPhases = (
 				15B42EC421718F6200217B42 /* Sources */,
 				15B42EC521718F6200217B42 /* Frameworks */,
@@ -81,9 +81,9 @@
 			);
 			dependencies = (
 			);
-			name = DepthReader;
+			name = "Portrait-Depth-Extraction";
 			productName = DepthReader;
-			productReference = 15B42EC821718F6200217B42 /* DepthReader.app */;
+			productReference = 15B42EC821718F6200217B42 /* Portrait-Depth-Extraction.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -106,7 +106,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 15B42EC321718F6200217B42 /* Build configuration list for PBXProject "DepthReader" */;
+			buildConfigurationList = 15B42EC321718F6200217B42 /* Build configuration list for PBXProject "Portrait-Depth-Extraction" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				15B42EC721718F6200217B42 /* DepthReader */,
+				15B42EC721718F6200217B42 /* Portrait-Depth-Extraction */,
 			);
 		};
 /* End PBXProject section */
@@ -278,11 +278,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DepthReader/DepthReader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Portrait-Depth-Extraction/Portrait-Depth-Extraction.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W792B9Y59T;
-				INFOPLIST_FILE = DepthReader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Portrait-Depth-Extraction/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -297,11 +297,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_ENTITLEMENTS = DepthReader/DepthReader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "Portrait-Depth-Extraction/Portrait-Depth-Extraction.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = W792B9Y59T;
-				INFOPLIST_FILE = DepthReader/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Portrait-Depth-Extraction/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -315,7 +315,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		15B42EC321718F6200217B42 /* Build configuration list for PBXProject "DepthReader" */ = {
+		15B42EC321718F6200217B42 /* Build configuration list for PBXProject "Portrait-Depth-Extraction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15B42ED621718F6400217B42 /* Debug */,
@@ -324,7 +324,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		15B42ED821718F6400217B42 /* Build configuration list for PBXNativeTarget "DepthReader" */ = {
+		15B42ED821718F6400217B42 /* Build configuration list for PBXNativeTarget "Portrait-Depth-Extraction" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				15B42ED921718F6400217B42 /* Debug */,
