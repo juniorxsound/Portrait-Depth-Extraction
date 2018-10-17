@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15412CD72176D50D00EB027B /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 15412CD62176D50D00EB027B /* icon.png */; };
 		15B42ECC21718F6200217B42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B42ECB21718F6200217B42 /* AppDelegate.swift */; };
 		15B42ECE21718F6200217B42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15B42ECD21718F6200217B42 /* ViewController.swift */; };
 		15B42ED021718F6400217B42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B42ECF21718F6400217B42 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		15412CD62176D50D00EB027B /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		15B42EC821718F6200217B42 /* DepthReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepthReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B42ECB21718F6200217B42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15B42ECD21718F6200217B42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 		15B42ECA21718F6200217B42 /* DepthReader */ = {
 			isa = PBXGroup;
 			children = (
+				15412CD62176D50D00EB027B /* icon.png */,
 				15B42ECB21718F6200217B42 /* AppDelegate.swift */,
 				15B42ECD21718F6200217B42 /* ViewController.swift */,
 				15B42ECF21718F6400217B42 /* Assets.xcassets */,
@@ -95,6 +98,11 @@
 				TargetAttributes = {
 					15B42EC721718F6200217B42 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -123,6 +131,7 @@
 			files = (
 				15B42ED021718F6400217B42 /* Assets.xcassets in Resources */,
 				15B42ED321718F6400217B42 /* Main.storyboard in Resources */,
+				15412CD72176D50D00EB027B /* icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
