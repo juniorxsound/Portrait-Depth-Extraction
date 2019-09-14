@@ -74,7 +74,7 @@ class ViewController: NSViewController {
                     }
                 }
             }
-        } else if sender.title == "Save" {
+        } else if sender.title == "Save depth map" {
             SaveDepthImage()
         }
     }
